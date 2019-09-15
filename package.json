@@ -1,0 +1,41 @@
+{
+  "name": "npm-react-ty",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --env.NODE_ENV=production",
+    "start": "webpack-dev-server --hot --open",
+    "dev": "npm run start"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "tengyu",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.3.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
